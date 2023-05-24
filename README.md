@@ -46,6 +46,10 @@ http://www.wm.edu/as/graduate/studentresources/thesis-dissertations/physicalstan
 
 > Updated 11/20 to compile in Overleaf and meet current standards
 
+- [Karim Bahgat](https://github.com/karimbahgat)
+
+> Updated 05/23 to fix incorrect committee member formatting on approval page, including more guidelines for filling in committee member information. 
+
 
 ## Usage
 
