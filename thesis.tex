@@ -170,15 +170,26 @@
 \thesisDepartment{Department of Computer Science}
 
 %%-- Committee members
-%% example 
-%%  \thesisCommittee[Department]{Professor John Doe}{ABC College}
-%%  \thesisCommittee{John Doe}{XYZ Company}
-%%  \thesisCommittee[Copration Department]{John Doe}{XYZ Company}
-\thesisCommittee[Computer Science]{Professor A}{College of William \& Mary}  % use {College of William \& Mary} -- Shanhe
-\thesisCommittee[Computer Science]{Associate Professor B}{College of William \& Mary}
-\thesisCommittee[Computer Science]{Assitant Professor C}{College of William \& Mary}
-\thesisCommittee[Electrical and Computer Engineering]{Professor D}{College of William \& Mary}
-\thesisCommittee[Applied Science]{Outside Committee Member}{College of William \& Mary}
+%% format: \thesisCommittee[Department]{First name Last name, Professional title}{Institutional affiliation}
+%% tips: Individuals sometimes may have multiple affiliations, departments, and titles. -- Karim
+%%       Additionally, names are easy to misspell and individuals may have preferred names. 
+%%       Last-minute errors and having to do multiple rounds of signatures are no fun.
+%%       Don't assume, go straight to the source.
+%%       For WM committee members:
+%%         1) get the information from https://directory.wm.edu/people/index.cfm. 
+%%         2) ask them to confirm. 
+%%       For external committee members:
+%%         1) ask them to provide all the information directly. 
+%% examples 
+%%  \thesisCommittee[Department]{John Doe, Professor}{ABC College}
+%%  \thesisCommittee{John Doe, Other title}{XYZ Company}
+%%  \thesisCommittee[Copration Department]{John Doe, Other title}{XYZ Company}
+\thesisCommittee[Computer Science]{A, Professor}{College of William \& Mary}  % use {College of William \& Mary} -- Shanhe
+\thesisCommittee[Computer Science]{B, Associate Professor}{College of William \& Mary}
+\thesisCommittee[Computer Science]{C, Assistant Professor}{College of William \& Mary}
+\thesisCommittee[Electrical and Computer Engineering]{D, Professor}{College of William \& Mary}
+\thesisCommittee[Applied Science]{Outside Committee Member Name, Title}{University of X}
+%% for more details see: https://www.wm.edu/as/graduate/_forms/physicalstandardsforms/approval-page.docx
 
 
 %%-- Insert contents of abstract.tex, acknowledge.tex and the dedication.  Don't
